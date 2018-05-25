@@ -4,8 +4,17 @@ body {
   margin-left: 10px;
 }
 
+h2 {
+  width: 25%;
+}
 footer {
   background: #DDE9F2;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
 }
 .navbar-light  {
   background-color: #0B1E23 !important;
