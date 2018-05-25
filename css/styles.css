@@ -1,6 +1,9 @@
 body {
   background: #0B1E23;
 }
+h2 {
+  
+  }
 
 .navbar-light  {
   background-color: #0B1E23 !important;
@@ -17,6 +20,10 @@ body {
   background: white;
   margin-top: 50px;
   padding-bottom: 50px;
+}
+
+.jumbotron {
+  width: 100%;
 }
 
 .footer {
