@@ -1,5 +1,5 @@
 body {
-  background: lightgrey;
+  background: #89D5EC;
 }
 
 .row  {
@@ -12,6 +12,12 @@ body {
   padding-bottom: 50px;
 }
 
+.footer {
+  margin-top: 50px;
+  padding-top: 50px;
+  width: 100%;
+}
+
 #skills {
   width: 50%;
   height: 200px;
@@ -19,4 +25,5 @@ body {
 
 #hobbies {
   padding-top: 50px;
+  margin-bottom: 50px;
 }
