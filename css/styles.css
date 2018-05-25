@@ -3,10 +3,10 @@ body {
   padding-right: 10px;
   margin-left: 10px;
 }
-h2 {
 
-  }
-
+footer {
+  background: #DDE9F2;
+}
 .navbar-light  {
   background-color: #0B1E23 !important;
 }
@@ -24,6 +24,8 @@ h2 {
   padding-bottom: 50px;
 }
 
+
+
 .jumbotron {
   width: 100%;
 }
@@ -32,6 +34,12 @@ h2 {
   margin-top: 50px;
   padding-top: 50px;
   width: 100%;
+  margin-left: 40px;
+}
+
+.emph {
+  color: #DA4398;
+  font-size: 15px;
 }
 
 
@@ -52,11 +60,16 @@ h2 {
 
 #about {
   background-color: white;
-  width: 50%;
-  padding-top: 50px;
-  padding-right: 10px;
+  width: 100%;
+  padding-top: 15px;
+  padding-right: 15px;
   padding-left: -10px;
   margin-top: 50px;
+  padding-bottom: 15px;
+}
+
+#about p {
+  max-width: 400px;
 }
 
 #hobbies {
