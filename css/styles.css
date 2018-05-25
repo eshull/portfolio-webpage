@@ -8,4 +8,15 @@ body {
 
 .section {
   background: white;
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+
+#skills {
+  width: 50%;
+  height: 200px;
+}
+
+#hobbies {
+  padding-top: 50px;
 }
