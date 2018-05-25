@@ -1,7 +1,11 @@
 body {
-  background: lightgreen;
+  background: lightgrey;
 }
 
 .row  {
   margin-top: 50px;
+}
+
+.section {
+  background: white;
 }
