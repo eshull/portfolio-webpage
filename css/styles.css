@@ -1,8 +1,10 @@
 body {
   background: #0B1E23;
+  padding-right: 10px;
+  margin-left: 10px;
 }
 h2 {
-  
+
   }
 
 .navbar-light  {
@@ -32,6 +34,7 @@ h2 {
   width: 100%;
 }
 
+
 #skills {
   width: 50%;
   padding-top: 50px;
@@ -45,6 +48,15 @@ h2 {
 
 #skills p {
   width: 75%;
+}
+
+#about {
+  background-color: white;
+  width: 50%;
+  padding-top: 50px;
+  padding-right: 10px;
+  padding-left: -10px;
+  margin-top: 50px;
 }
 
 #hobbies {
