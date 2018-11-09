@@ -5,10 +5,10 @@ body {
 }
 
 h2 {
-  width: 25%;
+  margin-bottom: -20px;
 }
 footer {
-  background: #DDE9F2;
+  background: white;
 }
 
 .title {
@@ -44,10 +44,8 @@ footer {
 }
 
 .footer {
-  margin-top: 50px;
-  padding-top: 50px;
-  width: 100%;
-  margin-left: 40px;
+  margin-left: 60px;
+  height: 100px;
 }
 
 .emph {
@@ -55,6 +53,40 @@ footer {
   font-size: 15px;
 }
 
+/* relevant styles */
+.img {
+  position: relative;
+}
+
+.image-text {
+  position: absolute;
+  top: -150px;
+  bottom: 0;
+  left: 28px;
+  right: 0;
+  /* background: lightgrey; */
+  /* color: #fff; */
+  visibility: hidden;
+  opacity: 0;
+  /* width: 332px;
+  height: 332px; */
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.img_wrap:hover .image-text {
+  visibility: visible;
+  opacity: 1;
+
+}
+
+.footer h5 {
+  margin-top: 20px;
+}
 
 #skills {
   width: 50%;
@@ -87,6 +119,6 @@ footer {
 }
 
 #hobbies {
-  padding-top: 50px;
+
   margin-bottom: 50px;
 }
